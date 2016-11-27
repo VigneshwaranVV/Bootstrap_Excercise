@@ -7,12 +7,10 @@
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 			<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		
-
 			<link rel="stylesheet" type="text/css" href="css/css-file.css">
 	</head>
 	<body class="container2">
-		<nav class="navbar navbar-default navbar-fixed-top">  
+		<nav class="navbar navbar-default navbar-fixed-top">  <!--navigation bar -->
     <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
 			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -26,7 +24,7 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				      <ul class="nav navbar-nav">
-					        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+					        <li class="active"><a href="#"><i class="fa fa-home fa-2x" aria-hidden="true"></i>Home<span class="sr-only">(current)</span></a></li>
 					        <li><a href="#">Acadamics</a></li>
 					        <li><a href="#">Courses</a></li>
 							<li><a href="#"> Campus Life</a></li>
@@ -36,7 +34,7 @@
 				      </ul>
 			      
 			  	</div><!-- /.container-fluid -->
-		</nav>
+		</nav> <!--end of navigation bar -->
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 	        <!-- Carousel indicators -->
 	        <ol class="carousel-indicators">
@@ -46,7 +44,7 @@
 	        </ol>   
 	        <!-- Wrapper for carousel items -->
 	        <div class="carousel-inner ">
-	            <div class="item active">
+	            <div class="item active" >
 	                <img src="img/slide3.jpg"  alt="First Slide">
 	            </div>
 	            <div class="item">
@@ -63,7 +61,7 @@
 	        <a class="carousel-control right" href="#myCarousel" data-slide="next">
 	            <span class="glyphicon glyphicon-chevron-right"></span>
 	        </a>
-	    </div>			
+	    </div>		
 		<section class="col-lg-12" id="hero-section"><!-- start of hero section-->
         	<div class="jumbotron ">
                 <img id="about-img" class="col-xs-12" src="img/about.jpg" >
@@ -72,7 +70,7 @@
             </div>
 		</section><!--end of hero section -->
 		<section class="col-lg-12" id="twocolumn-section"><!--twocolumn-section-->
-			<section class="col-lg-6 col-xs-12 col-md-12" id="sec1" >
+			<section class="col-lg-6 col-xs-12 col-md-12" id="firstcolumn-section" ><!--first column section-->
 				<section class="col-md-6 col-lg-12">
 					<h1 id="about" class="col-lg-12 col-xs-12" >About Us</h1>
 						<img class="col-xs-12" src="img/location.jpg">
@@ -83,7 +81,7 @@
 						</p>
 				</section>
 				<section class="col-lg-12 col-md-6" id="text-5"><h1 class="col-lg-12">Campus Highlights</h1>
-					<ul class="col-lg-12">
+					<ul class="col-lg-12" >
 						  <li>B.E  - CSE, B.E - EEE, B.E - ECE &amp; <br>B.Tech - IT Programmes are Accredited by NBA</li>
 						  <li>Accredited by NAAC with 'A' Grade</li>
 						  <li>Accredited by TCS and WIPRO</li>
@@ -94,9 +92,9 @@
 						  <li>60 state-of-the-art laboratories.</li>
 					</ul>
 				</section>					
-			</section>
-			<section id="form-section" class="col-lg-6" id=" sec1"><!--form section for sign in and sign up-->
-				<section class="col-lg-8 col-xs-6">
+			</section><!--end of first column section-->
+			<section id="form-section" class="col-lg-6" id=" secondcolumn-section"><!--second column section -->
+				<section class="col-lg-8 col-xs-6"><!--form section for sign in and sign up-->
 					<h1>Student</h1>
 					<ul class="nav nav-tabs">
 				        <li class="active"><a data-toggle="tab" href="#sign_in">Sign in<i class="fa fa-user-circle-o" aria-hidden="true"></i></a></li>
@@ -142,33 +140,34 @@
 				    </div>
 				 </section><!--end of form section for sign in and sign up-->
 			
-			<section id="newsevent-section" class="col-xs-6 col-lg-12" ><!--newsevent-section-->
+				<section id="newsevent-section" class="col-xs-6 col-lg-12" ><!--newsevent-section-->
 
-				<h1>News & Events</h1>
-				<ul >
-				
-				<li>
-					<a href="http://karpagam.edu.in/Automation/studentOnline.do?param=login&amp;Id=2" target="_blank">View your semester result web: karpagam.edu.in</a>
-				</li>
-				<li>
-					<a href="http://kce.ac.in/wp-content/uploads/2016/11/FDTP_2016.pdf" target="_blank">EEE-Faculty Development Training Program (FDTP) on “EE6601 – Solid State drives” on 1st to 7 th December 2016
-					</a> 
-				</li>
-				<li>
-					<a href="http://icaic.in/" target="_blank">International Conference on Advanced Information and Communication Technology (ICAIC’17) Organized by Department of CSE &amp; IT on 25-26 Feb 2017</a>
-				</li>
-				</ul>
-			</section><!-- end of newsevent-section-->
-			<section class="col-lg-12 col-xs-12" id="campusvideo-section"><!--campus video section-->
-				<h1>Campus</h1>
-				<iframe id="vid"  class="col-xs-12 col-lg-12" src="http://www.youtube.com/embed/pGR0429XCYk?feature=player_detailpage" frameborder="0" allowfullscreen=""></iframe>
-			</section><!--end of campus video section-->
+					<h1>News & Events</h1>
+					<ul >
+					
+					<li>
+						<a href="http://karpagam.edu.in/Automation/studentOnline.do?param=login&amp;Id=2" target="_blank">View your semester result web: karpagam.edu.in</a>
+					</li>
+					<li>
+						<a href="http://kce.ac.in/wp-content/uploads/2016/11/FDTP_2016.pdf" target="_blank">EEE-Faculty Development Training Program (FDTP) on “EE6601 – Solid State drives” on 1st to 7 th December 2016
+						</a> 
+					</li>
+					<li>
+						<a href="http://icaic.in/" target="_blank">International Conference on Advanced Information and Communication Technology (ICAIC’17) Organized by Department of CSE &amp; IT on 25-26 Feb 2017</a>
+					</li>
+					</ul>
+				</section><!-- end of newsevent-section-->
+				<section class="col-lg-12 col-xs-12" id="campusvideo-section"><!--campus video section-->
+					<h1>Campus</h1>
+					<iframe id="vid"  class="col-xs-12 col-lg-12" src="http://www.youtube.com/embed/pGR0429XCYk?feature=player_detailpage" frameborder="0" allowfullscreen=""></iframe>
+				</section><!--end of campus video section-->
+			</section><!--second column section -->
 		</section><!-- end of twocolumn-section-->
 	</body>
-	<footer class="col-lg-12 col-xs-12" >
-		<section class="col-lg-3 col-xs-6" id="footer-content" >
+	<footer class="col-lg-12 col-xs-12" id="footertag">
+		<section class="col-lg-4 col-xs-6" id="footer-content" >
 			<h1 class="col-lg-12 col-xs-12">Contact info</h1>
-			<p class="col-lg-12 col-xs-12" style="color:white;">
+			<p class="col-lg-12 col-xs-12">
 				Myleripalayam Village,
 				Othakkal Mandapam Post,
 				Coimbatore - 641032,
@@ -178,13 +177,17 @@
 				E-mail: info@kce.ac.in
 			</p>
 		</section>
-		<section class="col-lg-3 col-xs-6">
+		<section class="col-lg-4 col-xs-6">
 			<h2 class="col-lg-12 col-xs-12">Karpagam College Of Engineering</h2>
-				<iframe class="col-lg-12 col-xs-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.1074594348065!2d77.01607791422737!3d10.879430792251652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba84ffc9b3ea755%3A0xda7508a90583d22f!2sKarpagam+College+of+Engineering!5e0!3m2!1sen!2sin!4v1480232954877" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<iframe class="col-lg-12 col-xs-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.1074594348065!2d77.01607791422737!3d10.879430792251652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba84ffc9b3ea755%3A0xda7508a90583d22f!2sKarpagam+College+of+Engineering!5e0!3m2!1sen!2sin!4v1480232954877" width="400" height="300" frameborder="0"  allowfullscreen></iframe>
 		</section>
 		<section id="social" class="col-lg-4  col-xs-12">
-			<h1 class="col-lg-12">Social Activity</h1>
-			<i  class="fa fa-facebook-official fa-6" aria-hidden="true"></i>
+			<h1 class="col-lg-12"></h1>
+			<h1>
+				<b>FOLLOW AS ON</b></h1><i  class="fa fa-facebook-official fa-4x" aria-hidden="true"></i>
+				<i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i>
+				<i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
+			
 		</section>
 	</footer>
 </html>
