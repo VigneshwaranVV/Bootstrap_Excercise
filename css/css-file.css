@@ -32,3 +32,18 @@ html{
 #text-5 ul{
 	padding-left:120px;
 }
+
+#social a{
+	color:white;
+}
+
+
+#logo img{
+	margin-top: -18px;
+	height: 60px;
+}
+
+
+.carousel-inner > .item > img {
+  width: 100%;
+}
