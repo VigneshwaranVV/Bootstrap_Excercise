@@ -1,0 +1,29 @@
+.container2{
+	margin-top: 50px;
+}
+
+
+html{
+	background-image: url(http://kce.ac.in/wp-content/themes/kingpower-v1-05/images/pattern/pattern-13.png);
+}
+
+
+footer{
+	background-color: #006699;
+
+}
+
+#form-id{
+	overflow-y: scroll;
+	max-height: 300px;
+}
+
+
+#campusvideo-section iframe{
+	height: 300px;
+}
+
+#text-5 ul{
+	padding-left:120px;
+
+}
